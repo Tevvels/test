@@ -1,0 +1,174 @@
+*{
+	box-sizing: border-box;
+	background: rgba(0,0,0,0.2);
+
+}
+html,body{
+	margin: 0;
+}
+h1{
+	display: block;
+	position: relative;
+	font-size: 2em;
+	font-family: serif;
+	margin: 15px;
+	padding: 4px;
+}
+nav{
+	position: relative;
+
+}
+
+nav ul{
+	display: block;
+
+}
+
+nav li{
+
+	display: inline-block;
+	width: 24%;
+	height: 35px;
+	list-style-type: none;
+	border-left: 1px solid white;
+	text-align: center;
+	border-radius: 2px;
+	z-index:5;
+
+}
+
+section{
+	display: block;
+	position: relative;
+
+}
+
+section div{
+
+	display: block;
+	position: relative;
+	padding: 20px;
+	height: 30%;
+	width: auto;
+	margin-top: 20px;
+}
+section	div p{
+	color: white;
+	height: 50px;
+	width: auto;
+	overflow: hidden;
+	margin: 10px;
+	padding: 10px;
+}
+li:hover{
+background: rgb(0,0,0,0.6);
+color: white;
+}
+
+div #img{
+	height: 500px;
+	width: auto;
+	border-radius: 4px;
+
+}
+p #img {
+	line-height: 2;
+	padding: 2px;
+
+}
+
+div.img2{
+	position: relative;
+	display: inline-block;
+	height: 120px;
+	width:	130px;
+	margin-left: 25px;
+	margin-right: 25px;
+	border-radius: 50% 25%;
+	background: pink;
+
+
+}
+p.img2{
+	display: inline-block;
+	border: 1px dotted white;
+	height: 240px;
+	width: 180px;
+	margin-left: 25px;
+	margin-right: 25px;
+	overflow: hidden;
+	padding: 14px;
+	color: white;
+}
+
+
+footer{
+	height: 300px;
+	font-size: 1.4em;
+	color: white;
+
+
+}
+
+footer p{
+	position: relative;
+	float: left;
+	top: 200px;
+	left: 200px;
+	padding: 3px;
+
+}
+footer a{
+	display: block;
+	position: relative;
+	height: 30px;
+	width: 100px;
+	margin-left: 25px;
+	text-decoration: none;
+	color: white;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	overflow: hidden;
+
+
+}
+div.sec2{
+	position: relative;
+	display: inline-block;
+	height: 400px;
+	width: 240px;
+	overflow: hidden;
+	margin-left: 30px;
+	margin-bottom:25px;
+}
+
+
+@media only screen and (max-width: 670px){
+	html{
+		background: yellow;
+	}
+	div.img2{
+		width: 75%;
+		height: 300px;
+		margin: 0 20% 0 20%;
+		margin-bottom: 15px;
+		
+
+
+	}
+	section{
+		position: relative;
+		margin: 0;
+
+	}
+	p.img2{
+		display: none;
+	}
+	div.sec2{
+			height: 400px;
+			width: 240px;
+	}
+
+
+}
